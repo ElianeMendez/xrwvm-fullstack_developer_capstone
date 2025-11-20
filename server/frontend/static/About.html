@@ -1,68 +1,68 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+<body style="background:#f4f6f8;">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#0fb9b1; height: 1in;">
     <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <h2 style="padding-right: 5%; color:white;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" style="font-size: larger; color:white;" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" style="font-size: larger; color:white;" href="/about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" style="font-size: larger; color:white;" href="/contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+
+  <div class="card" style="width: 80%; margin: auto; margin-top:5%; border-radius:20px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+    <div class="banner" name="about-header" style="padding: 30px; text-align:center; background:white; border-radius:20px 20px 0 0;">
+      <h1 style="font-weight:700;">About Us</h1>
+      <p style="font-size:18px; max-width:80%; margin:auto; margin-top:10px;">
+        At Best Cars Dealership, we believe buying a car should be transparent, stress‑free, and backed by real customer experiences.
+        With locations across the United States, our mission is to connect drivers with reliable vehicles and trustworthy local dealerships.
+        Our platform allows customers to explore dealerships, read verified reviews, and share their own experiences.
+      </p>
+    </div>
+
+    <div style="display:flex; flex-direction:row; justify-content:space-around; padding:30px; background:white; border-radius:0 0 20px 20px;">
+
+      <div class="card" style="width:30%; border:none; box-shadow:0 3px 8px rgba(0,0,0,0.1); border-radius:15px;">
+        <img class="card-img-top" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Team member" style="border-radius:15px 15px 0 0;">
         <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+          <p class="title" style="font-weight:600; font-size:20px;">Jonathan Reed</p>
+          <p style="font-weight:500;">Chief Operations Officer</p>
+          <p class="card-text">Jonathan supervises dealership operations nationwide, ensuring every location meets our quality and transparency standards.</p>
+          <p style="font-weight:500;">jonathan.reed@bestcars.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <div class="card" style="width:30%; border:none; box-shadow:0 3px 8px rgba(0,0,0,0.1); border-radius:15px;">
+        <img class="card-img-top" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Team member" style="border-radius:15px 15px 0 0;">
         <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+          <p class="title" style="font-weight:600; font-size:20px;">Emily Larson</p>
+          <p style="font-weight:500;">Head of Customer Experience</p>
+          <p class="card-text">Emily leads our customer support and satisfaction initiatives, ensuring every review is validated and every voice is heard.</p>
+          <p style="font-weight:500;">emily.larson@bestcars.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <div class="card" style="width:30%; border:none; box-shadow:0 3px 8px rgba(0,0,0,0.1); border-radius:15px;">
+        <img class="card-img-top" src="https://randomuser.me/api/portraits/men/64.jpg" alt="Team member" style="border-radius:15px 15px 0 0;">
         <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+          <p class="title" style="font-weight:600; font-size:20px;">Carlos Mitchell</p>
+          <p style="font-weight:500;">Director of Technology</p>
+          <p class="card-text">Carlos oversees the platform’s development, ensuring seamless integration between services and a smooth experience for users.</p>
+          <p style="font-weight:500;">carlos.mitchell@bestcars.com</p>
         </div>
       </div>
-    </div>
-    </div>
-    </div>
-    
-</div>
 
+    </div>
+  </div>
+</body>
 </html>
